@@ -1,0 +1,15 @@
+Source: erlang-ezmq
+Section: development
+Priority: extra
+Maintainer: Aleksey Morarash <aleksey.morarash@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), erlang-base
+Standards-Version: 3.9.3
+Homepage: https://github.com/zeromq/ezmq
+Vcs-Browser: https://github.com/zeromq/ezmq
+Vcs-Git: https://github.com/zeromq/ezmq.git
+
+Package: erlang-ezmq
+Architecture: all
+Depends: erlang-base, erlang-gen-listener-tcp
+Description: ØMQ in pure Erlang
+ ezmq implements the ØMQ protocol in 100% pure Erlang.
